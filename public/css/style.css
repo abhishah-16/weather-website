@@ -28,3 +28,10 @@ table{
 #one:hover,#two:hover,#three:hover,#four:hover,#five:hover{
     color:red;
 }
+marquee{ 
+    position: absolute;  
+    top: 500px;
+    color:red;
+    margin-right: 18px;
+    padding: 5px;
+    }

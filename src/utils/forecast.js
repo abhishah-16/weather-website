@@ -11,7 +11,8 @@ const forecast = (l1, l2, callback) => {
                 weather: response.body.current.weather_descriptions[0],
                 temperature: response.body.current.temperature,
                 feelslike: response.body.current.feelslike,
-                rainprobability: response.body.current.precip
+                rainprobability: response.body.current.precip,
+                
             })
         }
     })
