@@ -7,17 +7,23 @@
     <title>About</title>
     <link rel="icon" href="./img/weather.png">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <center><p>{{>header}}</p></center>
+    <center>
+        <p>{{>header}}</p>
+    </center>
     <p>This site is created by Abhi shah It uses data from mapbox.api and weatherstack.com</p>
     <p> it's a service which tells its users what weather they should expect in the next few hours, days, weeks.
 
-<br> And the more accurate the forecasts, the more beautiful - the interface, the more likely the program will surpass its competitors.</p>
-   <img src="./img/aboutme.jpg" hight="200px" width="200px">
-    <h3>{{name}}</h3>
-    {{!-- <h3>{{age}}</h3> --}}
+        <br> And the more accurate the forecasts, the more beautiful - the interface, the more likely the program will
+        surpass its competitors.
+    </p>
+    <img src="./img/aboutme.jpg" hight="200px" width="200px" id="img">
+    <h3 style="padding-left:70px">{{name}} <a href="https://www.instagram.com/_abhiishah__/" class="fa fa-instagram"></a>
+   </h3>
     <p>{{>footer}}</p>
 </body>
 

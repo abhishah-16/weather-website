@@ -35,3 +35,20 @@ marquee{
     margin-right: 18px;
     padding: 5px;
     }
+#img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    transition: 0.3s;
+    -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+#img{
+    margin-left:30px;
+}
+.fa{
+    /* margin-left: 100px; */
+    padding-left:10px;
+    font-size: 70px;
+     width: 50px;  
+    text-decoration: none;
+    color:white;   
+    }
