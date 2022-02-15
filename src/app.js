@@ -4,6 +4,7 @@ const hbs = require('hbs')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 const app = express()
+const port = process.env.PORT || 5000
 const pdpath = path.join(__dirname, '../public')
 const viewpath = path.join(__dirname, '../templets/views')
 const partialpath = path.join(__dirname, '../templets/partials')
@@ -79,6 +80,6 @@ app.get('*', (req, res) => {
 
     })
 })
-app.listen(5000, () => {
+app.listen(port, () => {
     console.warn('server is on')
 })
